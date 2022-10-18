@@ -1,4 +1,66 @@
-h1{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
-    ;
+/*GENERELLE REGLER*/
+*{
+    margin:0;
+    padding:0;
 }
+
+    /*Tekst*/
+        h1{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            letter-spacing: 35px;
+        }
+
+        h2{
+            font-family: Franklin Gothic Heavy;
+            font-style: italic;
+        }
+
+        h3{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-transform: uppercase;
+        }
+
+        p{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    
+    /*Links*/
+        a{
+            font-family: Gill Sans MT Condensed;
+            color: #d218a0;
+            text-decoration: none;
+        }
+        a:hover{
+            color:#fd7d03;
+        }
+        
+    /*Call to action*/
+    #call{
+        color: white;
+        background-color: black;
+        border-radius: 25px;
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #call:hover{
+        color: black;
+        background-color: white;
+    }
+
+
+
+/*HEADER*/
+header{
+    margin-top: 20px;
+}
+
+
+/*To bokse (højre og venstre) i én boks (hvid baggrund) som har en bottom border (20 px fra content)
+Højre boks = logo
+Venstre boks =
+top billeder som knapper (fordelt i 4 bokse med centreret tekst under)
+under nav (nav styrer boksens længde)
+abonnér med id som gælder for alle call to action.*/
