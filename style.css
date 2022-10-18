@@ -27,6 +27,7 @@
 
         p{
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 10pt;
         }
     
     /*Links*/
@@ -57,10 +58,19 @@
 
     /*Knapper*/
         button{
-            
+            border: none;
+            background-color: white;
+        }
+
+        button>p{
+            text-align: center;
         }
 
 /*HEADER*/
+        header{
+            padding-bottom: 20px;
+            border-bottom: 5px solid #d218a0;
+    }
 
     .headerbox{
         background-color: white;
@@ -73,20 +83,27 @@
 
     #hbv{
         width: 30%;
+        margin-left: 20px;
     }
 
     #hbh{
-        text-align: right;
-        border-left:1px, solid,#d218a0;
+        display: flex;
+        justify-content: center;
+        margin-right: 20px;
+    }
+
+    #knapper>button{
+        margin-left: 15px;
     }
 
     nav{
         text-align: right;
+        margin-right: 20px;
     }
 
-    nav>a{
+    nav>a,button{
         font-size: 24pt;
-        margin-left: 5%;
+        margin-left: 100px;
     }
 
 
