@@ -6,7 +6,7 @@
         }
 
         section{
-            margin-top: 20px;
+            height: 650px;
         }
 
     /*Tekst*/
@@ -52,8 +52,7 @@
         }
 
         #call:hover{
-            color: black;
-            background-color: white;
+            color: #fd7d03;
         }
 
     /*Knapper*/
@@ -67,18 +66,25 @@
         }
 
 /*HEADER*/
-        header{
-            padding-bottom: 20px;
-            border-bottom: 5px solid #d218a0;
+    header{
+        background-color: white;
+        width: 100%;
+        height: 200px;
+        margin-top: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-bottom: 5px solid #d218a0;
+                                                        /*Bundlinje how? i gradient??? (20 px efter content)*/
+        position: fixed;
+        
     }
 
     .headerbox{
-        background-color: white;
+        margin-top: 0px;
         padding-bottom: 20px;
         display: flex;
         justify-content: space-between;
-        width: 100%;
-                                                        /*Bundlinje how? i gradient??? (20 px efter content)*/
+
     }
 
     #hbv{
@@ -109,7 +115,55 @@
 
 
 /*FOOTER*/
+    .footerbox{
+    background-color: #d218a0;
+    height: 400px;
+    width: 100%;
+    padding-top: 20px;
+    }
 
+    .list{
+        display: flex;
+        justify-content: space-around;
+    }
 
+    .list ul{
+        list-style-type: none;
+    }
 
-/*MAIN*/
+    .list li{
+        margin-top: 20px;
+        color: white;
+    }
+
+    .list a{
+        font-size: 20pt;
+        color: white;
+    }
+
+    .list a:hover{
+        text-decoration: underline;
+    }
+    
+
+/*MAIN - INDEX*/
+    /*section 1*/
+        .slideshow{
+            text-align: center;
+        }
+
+    /*section 2*/
+        .fa{
+            background-color: #fd7d03;
+            height: 650px;
+        }
+    
+    /*section 3*/
+        .konkurrence{
+            background-color: #d218a0;
+        }
+
+    /*section 4*/
+        .kort{
+            background-color: aqua;
+        }
