@@ -1,8 +1,13 @@
 /*GENERELLE REGLER*/
-*{
-    margin:0;
-    padding:0;
-}
+    /*MARGIN*/
+        *{
+            margin:0;
+            padding:0;
+        }
+
+        section{
+            margin-top: 20px;
+        }
 
     /*Tekst*/
         h1{
@@ -35,32 +40,56 @@
         }
         
     /*Call to action*/
-    #call{
-        color: white;
-        background-color: black;
-        border-radius: 25px;
-        padding-right: 30px;
-        padding-left: 30px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
+        #call{
+            color: white;
+            background-color: black;
+            border-radius: 25px;
+            padding-right: 30px;
+            padding-left: 30px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
 
-    #call:hover{
-        color: black;
-        background-color: white;
-    }
+        #call:hover{
+            color: black;
+            background-color: white;
+        }
 
 
 
 /*HEADER*/
-header{
-    margin-top: 20px;
-}
+
+    .headerbox{
+        background-color: white;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+                                                        /*Bundlinje how? i gradient??? (20 px efter content)*/
+    }
+
+    #hbv{
+        width: 30%;
+    }
+
+    #hbh{
+        text-align: right;
+        border-left:1px, solid,#d218a0;
+    }
+
+    nav{
+        text-align: right;
+    }
+
+    nav>a{
+        font-size: 24pt;
+        margin-left: 5%;
+    }
 
 
-/*To bokse (højre og venstre) i én boks (hvid baggrund) som har en bottom border (20 px fra content)
-Højre boks = logo
-Venstre boks =
-top billeder som knapper (fordelt i 4 bokse med centreret tekst under)
-under nav (nav styrer boksens længde)
-abonnér med id som gælder for alle call to action.*/
+
+/*FOOTER*/
+
+
+
+/*MAIN*/
