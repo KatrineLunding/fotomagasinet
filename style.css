@@ -7,7 +7,7 @@
 
         section{
             margin-top: 20px;
-            height: 650px;
+            height: 650px; /*Skulle have gjort alting ca. 200px mindre i højden - foto, sections, kasser*/
             width: 100%;
         }
 
@@ -291,6 +291,15 @@
         /*TITEL*/
         #cardheadline{
             text-align: center;
+            font-size: 50pt;
+            padding-top: 20px;
+            font-weight: 100;
+            text-transform: uppercase;
+        }
+
+        #cardheadlineleft{
+            text-align: left;
+            margin-left: 135px;
             font-size: 50pt;
             padding-top: 20px;
             font-weight: 100;
