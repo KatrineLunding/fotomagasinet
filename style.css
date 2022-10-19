@@ -124,6 +124,11 @@
                 margin-left: 100px;
             }
 
+            #søg{
+                top: 10px;
+                position: relative;
+                z-index: 2;
+            }
 
             .dropdown {
                 position: relative;
