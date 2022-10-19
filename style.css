@@ -6,6 +6,7 @@
         }
 
         section{
+            margin-top: 20px;
             height: 650px;
         }
 
@@ -67,24 +68,18 @@
 
 /*HEADER*/
     header{
-        background-color: white;
-        width: 100%;
-        height: 200px;
-        margin-top: 0px;
-        padding-top: 20px;
         padding-bottom: 20px;
         border-bottom: 5px solid #d218a0;
-                                                        /*Bundlinje how? i gradient??? (20 px efter content)*/
-        position: fixed;
-        
     }
 
     .headerbox{
-        margin-top: 0px;
+        background-color: white;
         padding-bottom: 20px;
         display: flex;
         justify-content: space-between;
-
+        width: 100%;
+        height: 200px;
+                                                        /*Bundlinje how? i gradient??? (20 px efter content)*/
     }
 
     #hbv{
@@ -97,21 +92,48 @@
         justify-content: center;
         margin-right: 20px;
     }
-
+    /*knapper med ikoner i toppen*/
     #knapper>button{
         margin-left: 15px;
     }
 
-    nav{
-        text-align: right;
-        margin-right: 20px;
-    }
 
-    nav>a,button{
-        font-size: 24pt;
-        margin-left: 100px;
-    }
+        /*NAV med Dropdown*/
+            nav{
+                text-align: right;
+                margin-right: 20px;
+            }
 
+            nav>a, button{
+                font-size: 24pt;
+                margin-left: 100px;
+            }
+
+
+            .dropdown {
+                position: relative;
+                display: inline-block;
+            }
+            
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                right: -40%;
+                background-color: white;
+                min-width: 100px;
+                padding: 20px;
+                z-index: 1;
+            }
+            
+            .dropdown:hover .dropdown-content{
+                display: block;
+            }
+
+            .dropdown-content li{
+                list-style: none;
+                text-align: left;
+                margin-bottom: 10px;
+            }
 
 
 /*FOOTER*/
