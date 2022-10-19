@@ -8,11 +8,12 @@
         section{
             margin-top: 20px;
             height: 650px;
+            width: 100%;
         }
 
     /*Tekst*/
         h1{
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-family: Century;
             letter-spacing: 35px;
         }
 
@@ -134,8 +135,7 @@
                 text-align: left;
                 margin-bottom: 10px;
             }
-
-
+        
 /*FOOTER*/
     .footerbox{
     background-color: #d218a0;
@@ -185,7 +185,40 @@
             background-color: #d218a0;
         }
 
-    /*section 4*/
-        .kort{
-            background-color: aqua;
+    /*section 4 - KORT*/
+        .cards{
+                min-width: 950px;
+                background-color:white;
+        }
+
+        /*TITEL*/
+        #cardheadline{
+            text-align: center;
+            font-size: 50pt;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            padding-top: 20px;
+        }
+        
+        .cardscontainer{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        
+                                                                    /*flex-wrap virker ikke?*/
+            flex-wrap: wrap;
+        }
+
+        .cardscontainer div{
+            text-align: center;
+            padding: 10px;
+            padding-bottom: 20px;
+            border: solid 4px black;
+        }
+
+        .cardscontainer div *{
+            margin-bottom: 10px;
+        }
+
+        .cardscontainer div p{
+            margin-bottom: 20px;
         }
