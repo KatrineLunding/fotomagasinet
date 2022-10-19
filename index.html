@@ -104,6 +104,12 @@
         <!--Sektion 1 Slideshow-->
             <section class="slideshow">
                 <img src="img/vinderfoto.jpg" alt="Konkurrencevinder">
+
+                <!--sl = slideshow.-->
+                <div class="slbox">
+                    <p>Fotografens navn</p>
+                    <p>Vinder af "indsæt_konkurrencens_titel" 2022</p>
+                </div>
             </section>
 
         <!--Sektion 2 Fremhævede artikler-->
@@ -111,9 +117,9 @@
 
                 <!--V for venstre - Hvad er nu forskellen på om det er class eller id?-->
                 <div class="fav">
-
-                    <!--ar = artikel. txt = tekst-->
-                    <div id="artxt">
+                    <a href="#"><img src="img/forside_syrine.jpg" alt="Månedens fotograf - Syrine Maj Pallisby"></a>
+                    <!--ar = artikel.-->
+                    <div class="arbox">
                         <h3>Syrine Maj Pallisby</h3>
                         <p>Nyheder - #Månedens_fotograf</p>
                     </div>
@@ -121,16 +127,21 @@
 
                 <!--H for Højre-->
                 <div class="fah">
+
                     <div id="over">
-                        <div id="artxt">
+                        <a href="#"><img src="img/forside_workflow.jpg" alt="workflow - Fra RAW til JPG"></a>
+                        
+                        <div class="arbox">
                             <h3>Workflow - Fra RAW til JPG</h3>
                             <p>Lær om - #workflow #photoshop #rawconverter #raw #psd #jpg</p>
                         </div>
                     </div>
 
                     <div id="under">
-                        <div id="artxt">
-                            <h3>Nem guide til at fotografere kæledyr i naturligt lys</h3>
+                        <a href="#"><img src="img/forside_kat.jpg" alt="Nem guide til at fotografere kæledyr i naturligt lys"></a>
+                        
+                        <div class="arbox">
+                            <h3>Nem guide til at fotografere kæledyr</h3>
                             <p>Lær om - #naturogdyr #dyr #portræt #guide #naturligtlys</p>
                         </div>
                     </div>
@@ -141,13 +152,15 @@
 
         <!--Sektion 3 Konkurrence-->
             <section class="konkurrence">
+
                 <!--Venstre boks-->
                 <div id="kov">
                     <h1>Konkurrence</h1>
                     <h2>Fangende tekst</h2>
-                    <p>Her står der så noget beskrivelse
-                        af den nye konkurrences tema
-                        og leder op til call-to-action.</p>
+                    <p>Her står der så noget beskrivelse </p>
+                       <p>af den nye konkurrences tema </p>
+                        <p id="flytcall">som leder op til call-to-action.</p>
+                        
                     <a id="call" href="#">Fortæl mig mere!</a>
                 </div>
 
