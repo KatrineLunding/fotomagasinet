@@ -15,31 +15,33 @@
 
         <!--hbh = HeaderBoxVenstre-->    
         <div id="hbv">
-                <a href="index.html"><img src="img/logo farve-sort.png" alt="Fotomagasinets logo"></a>
+                <a href="index.html"><img src="img/logo-farve-sort.png" alt="Fotomagasinets logo"></a>
             </div>
 
             <!--hbh = HeaderBoxHøjre-->
             <div id="hbh">
 
-                <div id="knapper">
-                    <button>
-                        <a href="#"><img src="img/indsend nav.png" alt="Indsend foto"></a>
-                        <p>Indsend foto</p>
+                <div id="knapper"> <!--"Error: The element a must not appear as a descendant of the button element."
+                Jeg forstår ikke, hvordan jeg skal løse den her fejl-->
+
+                    <button> 
+                        <a href="#"><img src="img/indsend_nav.png" alt="Indsend foto"></a>
+                        <a href="#">Indsend foto</a>
                     </button>
 
                     <button>
-                        <a href="#"><img src="img/hjerte nav.png" alt="Mine favoritter"></a>
-                        <p>Mine favoritter</p>
+                        <a href="#"><img src="img/hjerte_nav.png" alt="Mine favoritter"></a>
+                        <a href="#">Mine favoritter</a>
                     </button>
 
                     <button>
-                        <a href="#"><img src="img/profil nav.png" alt="Profil"></a>
-                        <p>Profil</p>
+                        <a href="#"><img src="img/profil_nav.png" alt="Profil"></a>
+                        <a href="#">Profil</a>
                     </button>
 
                     <button>
-                        <a href="#"><img src="img/forum nav.png" alt="Forum"></a>
-                        <p>Forum</p>
+                        <a href="#"><img src="img/forum_nav.png" alt="Forum"></a>
+                        <a href="#">Forum</a>
                     </button>
                 </div>
             </div>
@@ -54,9 +56,11 @@
                 </button>
             
                 <div class="dropdown-content">
-                    <li><a href="#">Abonnementsfordele</a></li> 
-                    <li><a href="#">Tilmeld Nyhedsbrev</a></li> 
-                    <li><a href="#">Studierabat</a></li>                  
+                    <ul>
+                        <li><a href="#">Abonnementsfordele</a></li> 
+                        <li><a href="#">Tilmeld Nyhedsbrev</a></li> 
+                        <li><a href="#">Studierabat</a></li>
+                    </ul>                 
                 </div>
             </div>
             
@@ -68,10 +72,12 @@
                 </button>
             
                 <div class="dropdown-content">
-                    <li><a href="#">Historier</a></li>
-                    <li><a href="#">Månedens fotograf</a></li>  
-                    <li><a href="#">Månedens konkurrence</a></li>  
-                    <li><a href="#">Vindergalleriet</a></li>                    
+                    <ul>
+                        <li><a href="#">Historier</a></li>
+                        <li><a href="#">Månedens fotograf</a></li>  
+                        <li><a href="#">Månedens konkurrence</a></li>  
+                        <li><a href="#">Vindergalleriet</a></li>
+                    </ul>                    
                 </div>
             </div>
 
@@ -81,17 +87,19 @@
                 </button>
             
                 <div class="dropdown-content">
-                    <li><a href="#">Teknik</a></li>
-                    <li><a href="#">Fotoredigering</a></li>  
-                    <li><a href="#">Anbefalinger</a></li>  
-                    <li><a href="lær om at fotografere.html">At fotografere</a></li>  
-                    <li><a href="#">At blive freelancer</a></li>                  
+                    <ul>
+                        <li><a href="#">Teknik</a></li>
+                        <li><a href="#">Fotoredigering</a></li>  
+                        <li><a href="#">Anbefalinger</a></li>  
+                        <li><a href="lær om at fotografere.html">At fotografere</a></li>  
+                        <li><a href="#">At blive freelancer</a></li>
+                    </ul>                  
                 </div>
             </div>
 
             <!--SØGEKNAP HER-->
             <button>
-                <img id="søg" src="img/søg nav.png" alt="Søg">
+                <img id="søg" src="img/søg_nav.png" alt="Søg">
             </button>
         </nav>
 
@@ -140,10 +148,10 @@
                     </div>
 
                     <div id="under">
-                        <a href="artikel - nem guide til at fotografere kæledyr.html"><img src="img/forside_kat.jpg" alt="Nem guide til at fotografere kæledyr i naturligt lys"></a>
+                        <a href="artikel_nem_guide_til_at_fotografere_kæledyr.html"><img src="img/forside_kat.jpg" alt="Nem guide til at fotografere kæledyr i naturligt lys"></a>
                         
                         <div class="arbox">
-                            <a href="artikel - nem guide til at fotografere kæledyr.html"><h3>Nem guide til at fotografere kæledyr</h3></a>
+                            <a href="artikel_nem_guide_til_at_fotografere_kæledyr.html"><h3>Nem guide til at fotografere kæledyr</h3></a>
                             <p>Lær om - #naturogdyr #dyr #portræt #guide #naturligtlys</p>
                         </div>
                     </div>
@@ -163,7 +171,7 @@
                        <p>af den nye konkurrences tema </p>
                         <p id="flytcall">som leder op til call-to-action.</p>
                         
-                    <a id="call" href="#">Fortæl mig mere!</a>
+                    <a id="call" href="#">Fortæl mig mere!</a> <!--Error: Duplicate ID call. Jeg forstår ikke, hvad problemet er.-->
                 </div>
 
                 <!--Højre boks-->
@@ -221,21 +229,22 @@
                     <li>mail. mail.mail@mail.dk</li>
                 </ul>
 
-            <ul>
-                <li><a href="#">Nyhedsbrev</a></li>
-                <li><a href="#">Abonnementsfordele</a></li>
-                <li><a href="#">Konkurrencebetingelser</a></li>
-            </ul>
+                <ul>
+                    <li><a href="#">Nyhedsbrev</a></li>
+                    <li><a href="#">Abonnementsfordele</a></li>
+                    <li><a href="#">Konkurrencebetingelser</a></li>
+                </ul>
 
-            <ul>
-                <li><a href="#">Presse</a></li>
-                <li><a href="#">Annoncørinfo</a></li>
-            </ul>
+                <ul>
+                    <li><a href="#">Presse</a></li>
+                    <li><a href="#">Annoncørinfo</a></li>
+                </ul>
 
-            <ul>
-                <li><a href="#">Cookiepolitik</a></li>
-                <li><a href="#">Persondatapolitik</a></li>     
-            </ul>
+                <ul>
+                    <li><a href="#">Cookiepolitik</a></li>
+                    <li><a href="#">Persondatapolitik</a></li>     
+                </ul>
+            </div>
         </div>
     </footer>
     
