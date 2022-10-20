@@ -7,7 +7,6 @@
 
         section{
             margin-top: 20px;
-            height: 650px; /*Skulle have gjort alting ca. 200px mindre i højden - foto, sections, kasser*/
             width: 100%;
         }
 
@@ -161,6 +160,7 @@
     height: 400px;
     width: 100%;
     padding-top: 20px;
+    margin-top: 20px;
     }
 
     .list{
@@ -318,8 +318,7 @@
             justify-content: space-evenly;
             margin-top: 20px;
         
-                                                                    /*flex-wrap virker ikke?*/
-            flex-wrap: wrap;
+            /*flex-wrap virker ikke?*/
         }
 
         /*Design af hver enkelte kort*/
@@ -345,68 +344,132 @@
 
 
 /*MAIN - ARTIKEL - alt der ikke har en specifik id, som fx h1 skal starte med class = .ra*/
-.ra section{
-    height:650px;
-    margin-bottom: 20px;
-}
+/*TEXT*/
+    .ra h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30pt;
+        letter-spacing: normal;
+        color: #d218a0;
+    }
 
-.ra h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30pt;
-    letter-spacing: normal;
-    color: #d218a0;
-}
+    .ra h2{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 24pt;
+        letter-spacing: normal;
+        font-style: normal;
+        color: #d218a0;
+    }
 
-.ra h2{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 24pt;
-    letter-spacing: normal;
-    font-style: normal;
-    color: #d218a0;
-}
+    .ra h3{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 18pt;
+        letter-spacing: normal;
+        text-transform: none;
+        color: #d218a0;
+    }
 
-.ra h3{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 18pt;
-    letter-spacing: normal;
-    text-transform: none;
-    color: #d218a0;
-    
-}
+    .ra h4{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 18pt;
+        letter-spacing: normal;
+        text-transform: none;
+        color: #d218a0;
+        margin-top: 20px;
+    }
 
-.ra p{
-    font-family: calibri;
-    font-size: 14pt;
-    color: black;
-    margin-bottom: 10px;
-}
+    .ra p{
+        font-family: calibri;
+        font-size: 14pt;
+        color: black;
+        margin-bottom: 10px;
+    }
+
+    .ra li{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 14pt;
+        color: black;
+        margin-bottom: 20px;
+    }
+
+
 
 .ra button{
     display: flex;
-    color: #d218a0;
     margin-left: 0px;
 }
 
-.ra .guide{
+.ra button p{
+    margin-left: 5px;
+    color: #d218a0;
+}
+
+.introbox{
+    text-align: left;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.ra .guidebox{
+    text-align: center;
+    height: 550px;
+}
+
+.ra .guidebox .guidetxt{
     display: flex;
     justify-content: space-evenly;
+    text-align: left;
+    margin-top: 40px;
 }
 
-.ra .guide li{
-    margin-bottom: 20px;
-}
-
-.ra .kat{
+.ra .ordbon{
     display: flex;
-    justify-content: space-center;
+    justify-content: center;
 }
 
 .ra #bonus{
     text-transform: uppercase;
 }
 
+.ra .outrobox{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.ra .instabox{
+    height: 450px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+
+    border-top: solid 5px #d218a0;
+    border-bottom: solid 5px #d218a0;
+}
+
+.ra .instabox h3{
+    text-align: center;
+}
+
+.ra .instaboxcontent{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.ra #eller{
+    font-style: italic;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 .ra #instalilla{
     color: #d218a0;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
 }
+
