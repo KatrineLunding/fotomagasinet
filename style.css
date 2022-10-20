@@ -70,8 +70,10 @@
             background-color: white;
         }
 
-        button>p{
+        #knapper a{
             text-align: center;
+            color: black;
+            font-size: 10pt;
         }
 
 /*HEADER*/
@@ -405,6 +407,7 @@
 
 .introbox{
     text-align: left;
+    margin-left: 80px;
 }
 
 .center{
